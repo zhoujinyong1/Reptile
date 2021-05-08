@@ -51,7 +51,7 @@ def mkdir(path):
 #Main 小说爬虫
 starturl='https://www.lingdiankanshu.co/258400/1316099.html'  # 起始章的url
 src = 'E:\\爬虫\\小说\\大劫主.txt' #存放位置
-def(src) #没有此路径则创建 
+mkdir(src) #没有此路径则创建 
 i=0
 title=[]
 while i < 2500: #2500为 循环进入下一页2500次 ，根据需要自行调整
