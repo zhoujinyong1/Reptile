@@ -5,6 +5,8 @@ HealthYiMiao.py:
 
 通过fiddle抓包工具，抓取微信“健康深圳”的疫苗信息，单独社康。
 
+![image](https://user-images.githubusercontent.com/51100742/120620606-b884a400-c48f-11eb-80c3-47a5b241cd04.png)
+
 ![Snipaste_2021-06-03_17-14-13](https://user-images.githubusercontent.com/51100742/120620092-33998a80-c48f-11eb-93d5-635d972c9c78.jpg)
 
 
