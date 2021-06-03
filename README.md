@@ -7,6 +7,7 @@ HealthYiMiao.py:
 
 ![image](https://user-images.githubusercontent.com/51100742/120620606-b884a400-c48f-11eb-80c3-47a5b241cd04.png)
 
-![Snipaste_2021-06-03_17-14-13](https://user-images.githubusercontent.com/51100742/120620092-33998a80-c48f-11eb-93d5-635d972c9c78.jpg)
+![image](https://user-images.githubusercontent.com/51100742/120621195-3cd72700-c490-11eb-9806-28c217650146.png)
+
 
 
