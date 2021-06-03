@@ -5,7 +5,7 @@ import time
 import ctypes
 from urllib.parse import parse_qs, urlencode, urlparse
 
-#获取签名页
+#获取健康深圳页面
 reservation_headers = {
     "Accept-Encoding" :"gzip, deflate, br",
     "User-Agent" :"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 MicroMessenger/7.0.9.501 NetType/WIFI MiniProgramEnv/Windows WindowsWechat",
@@ -30,6 +30,7 @@ reservation_data = {
 reservation_url = 'https://www.newhealth.com.cn/hos/portal/appt/getDoctorSchInfo'
 fast_access_url_is = requests.post(reservation_url,data=reservation_data,headers=reservation_headers).json()['body']['dataList']
 print(time.strftime("%Y-%m-%d %X"),"--",fast_access_url_is[0]['platOrgName'],"--",fast_access_url_is[0]['platDeptName'],":",fast_access_url_is[0]['numTypeName'])
+'''用模拟鼠标来预约疫苗
 if fast_access_url_is[0]['numTypeName']=="约满" and fast_access_url_is[0]['platDeptName']=="新冠疫苗接种（北京科兴）":
     print("1")
 else:  #有号
@@ -54,5 +55,5 @@ else:  #有号
     mouse_er.press(Button.left)
     mouse_er.release(Button.left)
     print("预约成功")
-
+'''
 
